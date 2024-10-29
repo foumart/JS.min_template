@@ -1,0 +1,23 @@
+{
+	"name": "js_test",
+	"version": "0.0.1",
+	"description": "js test",
+	"main": "src/scripts/app.js",
+	"scripts": {
+		"build": "gulp",
+		"debug": "gulp --raw"
+	},
+	"devDependencies": {
+		"browser-sync": "3.0.2",
+		"del": "7.1.0",
+		"gulp": "5.0.0",
+		"gulp-if": "3.0.0",
+		"gulp-htmlmin": "5.0.1",
+		"gulp-concat": "2.6.1",
+		"gulp-string-replace": "1.1.2",
+		"yargs": "17.7.2"
+	},
+	"dependencies": {
+		"npm": "^8.11.0"
+	}
+}
